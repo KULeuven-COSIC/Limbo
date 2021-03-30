@@ -1,6 +1,6 @@
 # Limbo
-Limbo implementation
-https://eprint.iacr.org/2021/215 
+[Limbo](https://eprint.iacr.org/2021/215) implementation
+
 
 ## Setup
 The config.h file lets you define some constants that slightly change the behaviour of the program.
@@ -24,8 +24,7 @@ wget https://homes.esat.kuleuven.be/~nsmart/MPC/sha256.txt
 ```
 
 
-More circuits in the correct format are available here:
-https://homes.esat.kuleuven.be/~nsmart/MPC/
+More circuits in the correct format are available [here](https://homes.esat.kuleuven.be/~nsmart/MPC/)
 
 
 ## Parameters
