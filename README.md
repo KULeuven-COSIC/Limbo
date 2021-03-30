@@ -34,7 +34,7 @@ The more you increase the number of in the head parties, the lower the number of
 Thus reducing the proof size while increasing the computational complexity.
 
 
-In the provided for SHA256 example (parameter set 0 in limbo_instance.cpp) we use 64 parties and 29 repetitions to achieve 128 bit of security.
+In the provided example for SHA256 (parameter set 0 in limbo_instance.cpp) we use 64 parties and 29 repetitions to achieve 128 bit of security.
 If the goal was to otpimize for speed, we could for example choose 8 parties and 48 repetitions.
 
 
