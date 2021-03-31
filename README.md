@@ -8,7 +8,7 @@ The config.h file lets you define some constants that slightly change the behavi
 Security levels and other parameters are defined in limbo_instance.cpp
 You have to specify yours according to the circuit you want to prove.
 In particular, if you do not give the correct number of mult gates, 
-this will result in an error.
+as well as input and output wires this will result in an error.
 
 By default, the parameter set 0 works for the SHA256 circuit.
 
