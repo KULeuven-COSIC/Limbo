@@ -1824,7 +1824,7 @@ unsigned int compute_proof_size(limbo_proof_t proof,
   result += proof.h_3.size() * 8;
 
   for (unsigned int i = 0; i < proof.proofs.size(); i++) {
-    result += proof.proofs[i].reveallist.first.size() * instance.seed_size;
+    result += proof.proofs[i].reveallist.first.size() * instance.seed_size * 8;
     result += proof.proofs[i].missing_seed_commitments.size() * 8;
     result += proof.proofs[i].witness_deltas.size();
     result += proof.proofs[i].mult_deltas.size();
