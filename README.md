@@ -43,3 +43,4 @@ and different target security.
 ## Acknowledgements
 
 Some parts of the code were based on the [optimized Picnic implementation](https://github.com/IAIK/Picnic) and on the [banquet implementation](https://github.com/dkales/banquet).
+We also use the keccak code from the [keccak team](https://keccak.team/).
